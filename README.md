@@ -1,9 +1,9 @@
 # Running
 * Download 10,000 song subset: http://static.echonest.com/millionsongsubset_full.tar.gz
-* Dependencies are in requirements.txt
+* Run ```pip install --user -r requirements.txt```
 * Create a database in MySQL server. You do NOT need to create a table.
 * Edit settings in settings.py.
-* Run hdf5_to_sql.py
+* Run ```python hdf5_to_sql.py```
 
 # Project Structure
 * normalize.sql:
